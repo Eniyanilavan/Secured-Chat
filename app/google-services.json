@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "239763001572",
+    "firebase_url": "https://project-1587c.firebaseio.com",
+    "project_id": "project-1587c",
+    "storage_bucket": "project-1587c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239763001572:android:431925de4b09752a",
+        "android_client_info": {
+          "package_name": "com.example.eniyanilavan.securedchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239763001572-d1oov74cc8cr0ar00uk1qga9ag8fnv1d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eniyanilavan.securedchat",
+            "certificate_hash": "5f4f6d75f5ff29a8d950464b44fee0f9d317943d"
+          }
+        },
+        {
+          "client_id": "239763001572-jvil392p39lej2lq702ab6t130nk9r5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD88BhhxMQK0nGmYqKhBg0N7WUUIuXmJ9o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239763001572-jvil392p39lej2lq702ab6t130nk9r5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

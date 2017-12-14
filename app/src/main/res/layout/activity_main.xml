@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eniyanilavan.securedchat.MainActivity">
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="19dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/roundbutton"
+        android:text="+"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/roundbutton"
+        android:text="Logout"
+        android:textSize="6sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/mess"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/add"
+        android:layout_alignLeft="@+id/add"
+        android:layout_alignStart="@+id/add"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/roundbutton"
+        android:text="message"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/group"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/mess"
+        android:layout_alignLeft="@+id/mess"
+        android:layout_alignStart="@+id/mess"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/roundbutton"
+        android:text="Group"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/roundbutton"
+        android:text=".\n.\n.\n." />
+
+    <ListView
+        android:id="@+id/listc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>
